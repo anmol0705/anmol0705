@@ -38,7 +38,7 @@
 
 | Problem | What I built | Result |
 |---|---|---|
-| QA test-case authoring took 30–45 min each, by hand | An agentic pipeline combining LLM reasoning, live device control, and a 142,917-edge codebase knowledge graph so it never regenerates code that already exists | **~2 min per test case** |
+| A recurring engineering task took 30–45 min each, by hand | An agentic pipeline combining LLM reasoning, live device control, and a 142,917-edge codebase knowledge graph so it never regenerates code that already exists | **~2 min per task** |
 | Every task-visibility check required walking a role hierarchy tree | Materialized permissions into a junction table at task-creation time | **O(1) reads**, not a recursive tree-walk |
 | Full-codebase context made LLM calls slow and expensive | Dynamic context selection — only relevant modules go into the prompt | **~80% token reduction** |
 | A production SaaS was loading in ~10s from N+1 redundant DB queries | Deduped profile lookups via React `cache()`, merged into one parallel query tier | **~3s page load** |
@@ -51,19 +51,26 @@
 
 | Project | What it is |
 |---|---|
-| [Filio](https://github.com/anmol0705/REPLACE_ME) | Multi-tenant work-management SaaS for CA firms — real product, used in production. 11-table Postgres schema, 3-layer defense-in-depth security |
-| [cms-saas](https://github.com/anmol0705/REPLACE_ME) | Multi-tenant headless CMS in Go — async LLM content generation, tiered Stripe billing, row-level tenant isolation |
-| [ClaimSense](https://github.com/anmol0705/REPLACE_ME) | Motor-insurance telematics — architected the on-device AI pipeline (TensorFlow/scikit-learn/ONNX, YOLOv5), led a 4-person team through live-vehicle validation |
-| [Open-Source Apprenticeship System](https://github.com/anmol0705/OpenSource_System) | LangGraph mentor agent that guides contributors to fix real GitHub issues themselves via proficiency-calibrated hints |
-| [retailmind](https://github.com/anmol0705/REPLACE_ME) | GNN-based (LightGCN) recommendation engine with a full MLOps loop — DVC, MLflow, Docker, CI/CD |
+| [Fillio](https://github.com/anmol0705/Fillio) | Multi-tenant work-management SaaS for CA firms — real product, used in production. 11-table Postgres schema, 3-layer defense-in-depth security |
+| [Claim-Sense](https://github.com/anmol0705/Claim-Sense) | Motor-insurance telematics — architected the on-device AI pipeline (TensorFlow/scikit-learn/ONNX, YOLOv5), led a 4-person team through live-vehicle validation |
+| [OpenSource_System](https://github.com/anmol0705/OpenSource_System) | LangGraph mentor agent that guides contributors to fix real GitHub issues themselves via proficiency-calibrated hints |
+| [ENHANCE3D](https://github.com/anmol0705/ENHANCE3D) | AI-based 3D-print defect detection — 90% accuracy, 25% fewer errors. Runner-up, HackINNOVISION |
+| [ChurnAI](https://github.com/anmol0705/ChurnAI) | Customer churn prediction — F1 0.83, ROC AUC 0.73 on 10K+ records, deployed as a FastAPI + Streamlit service |
+| [NOMAD](https://github.com/anmol0705/NOMAD) | Portable, plug-and-play AI dev environment that runs off an external drive — no host installation |
 
 ---
 
-<div align="center">
+### Client work
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anmol0705&theme=tokyo-night&hide_border=true" width="100%" alt="contribution activity graph" />
+Freelance builds shipped for real clients — production sites, not demos:
 
-</div>
+| Project | What it is |
+|---|---|
+| [Jain Poddar & Co.](https://jainpoddar.co.in/) | Marketing site for a 24-year Chartered Accountancy practice in Ranchi (4 partners, 1000+ clients) |
+| [Upasana](https://trustupasana.in/) | Site for a pediatric early-intervention and child-development centre |
+| [Vandana / WeGiftForYou](https://vgifts4u.com/) | B2B corporate gifting and office-supplies platform, Bengaluru — clients include HP, L&T Technology Services |
+| [TechoBits](https://techobits.com/) | Agency site — web apps, Salesforce, cloud infrastructure, AI systems |
+| [ARK Hotels Ranchi](https://www.arkhotelsranchi.in/) | Booking and marketing site for a hotel in Kokar, Ranchi |
 
 ---
 
@@ -74,8 +81,11 @@
 
 <div align="center">
 
-🏆 Amazon HackOn 6.0 Finalist (top 30/70,000+) · AlgoUtsav Runner-Up (top 1%/150+ teams) · Codeforces Specialist · CodeChef 3-Star
+🏆 Amazon HackOn 6.0 Finalist (top 30/70,000+) · AlgoUtsav Runner-Up (top 1%/150+ teams) · Codeforces Specialist ([confirm handle]) · CodeChef 3-Star
 
-📫 [your email or LinkedIn]
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anmol-jain0705)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmol752005@gmail.com)
 
 </div>
